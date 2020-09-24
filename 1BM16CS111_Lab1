@@ -1,1 +1,48 @@
+db
+show dbs
+use myDB
+db
+show dbs
+db.createCollection("Student")
+db.Student.drop()
+db.Student.insert({_id:1,StudName:"Sunethra",Grade:"Senior Year",Hobbies:"Skateboarding"})
+db.Student.find({Studame:"Dave"})
 
+use CollegeDatabase
+db.createCollection("Student")
+db.createCollection("Faculty")
+db.createCollection("COE")
+db.createCollection("Library")
+db.createCollection("Admission")
+db.createCollection("College_Festival")
+
+
+db.Student.insert({_id:1,StudName:"Sunethra",Grade:"Senior Year",Hobbies:"Skateboarding"})
+db.Student.insert({_id:2,StudName:"Aishwarya",Grade:"Junior Year",Hobbies:"Sketching"})
+db.Student.insert({_id:3,StudName:"Payal",Grade:"Sophomore Year",Hobbies:"Playing Guitar"})
+db.Student.insert({_id:4,StudName:"Shreya",Grade:"Freshman Year",Hobbies:"Dancing"})
+
+db.Faculty.insert({_id:1,FacName:"Dr.Alice",Sub:"Physics",Class:"9"})
+db.Faculty.insert({_id:2,FacName:"Dr.Bob",Sub:"Biology",Class:"8"})
+db.Faculty.insert({_id:3,FacName:"Dr.Casey",Sub:"Chemistry",Class:"12"})
+db.Faculty.insert({_id:4,FacName:"Dr.Dave",Sub:"Mechanics",Class:"11"})
+
+db.COE.insert({_id:1,Sub:"Phy",Date1:"15/5",Class:"9"})
+db.COE.insert({_id:2,Sub:"Chem",Date1:"16/5",Class:"9"})
+db.COE.insert({_id:3,Sub:"Bio",Date1:"17/5",Class:"8"})
+db.COE.insert({_id:4,Sub:"Comp Sci",Date1:"19/5",Class:"10"})
+
+db.Library.insert({_id:1,Book:"Data comm",Issued:"15/5",Class:"10"})
+db.Library.insert({_id:2,Book:"Data Structures",Issued:"21/5",Class:"11"})
+db.Library.insert({_id:3,Book:"Python",Issued:"15/7",Class:"12"})
+db.Library.insert({_id:4,Book:"R programming",Issued:"15/7",Class:"11"})
+
+db.Admission.insert({_id:1,Name:"Smita",Fees:"Paid",Course:"CSE"})
+db.Admission.insert({_id:2,Name:"Rashmi",Fees:"Paid",Course:"ISE"})
+db.Admission.insert({_id:3,Name:"Arya",Fees:"Unpaid",Course:"ECE"})
+db.Admission.insert({_id:4,Name:"Ayesha",Fees:"Unpaid",Course:"EEE"})
+
+db.College_Festival.insert({_id:1,Name:"Technical",Fees:"Paid",Date1:"4/5"})
+db.College_Festival.insert({_id:2,Name:"Cultural",Fees:"Free",Date1:"12/5"})
+db.College_Festival.insert({_id:3,Name:"Utsav",Fees:"Free",Date1:"4/6"})
+db.College_Festival.insert({_id:4,Name:"Enigma",Fees:"Paid",Date1:"8/9"})
