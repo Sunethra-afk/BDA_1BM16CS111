@@ -12,3 +12,5 @@ Lab2
 ![image](https://user-images.githubusercontent.com/37868833/94795269-be0a8580-03fa-11eb-84f6-3c5902ab9dfc.png)
 ![image](https://user-images.githubusercontent.com/37868833/94795272-c1057600-03fa-11eb-9c2a-790793b7ed1f.png)
 ![image](https://user-images.githubusercontent.com/37868833/94794716-e47bf100-03f9-11eb-8229-9999f4151f07.png)
+![image](https://user-images.githubusercontent.com/37868833/94807284-1054a200-040d-11eb-9363-79e71d5976ad.png)
+![image](https://user-images.githubusercontent.com/37868833/94807307-18acdd00-040d-11eb-97f7-2553ae2a9c32.png)
