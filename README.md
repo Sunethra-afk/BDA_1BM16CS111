@@ -8,4 +8,7 @@ Lab1
 ![image](https://user-images.githubusercontent.com/37868833/94110821-d4e03380-fe60-11ea-8ef0-a47c5d86aedc.png)
 
 Lab2
+![image](https://user-images.githubusercontent.com/37868833/94795260-bba82b80-03fa-11eb-8a0b-2450b9147260.png)
+![image](https://user-images.githubusercontent.com/37868833/94795269-be0a8580-03fa-11eb-84f6-3c5902ab9dfc.png)
+![image](https://user-images.githubusercontent.com/37868833/94795272-c1057600-03fa-11eb-9c2a-790793b7ed1f.png)
 ![image](https://user-images.githubusercontent.com/37868833/94794716-e47bf100-03f9-11eb-8229-9999f4151f07.png)
