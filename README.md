@@ -6,3 +6,6 @@ Lab1
 ![image](https://user-images.githubusercontent.com/37868833/94106257-b0805900-fe58-11ea-8cb9-75fa5f609006.png)
 ![image](https://user-images.githubusercontent.com/37868833/94106532-36040900-fe59-11ea-8fe7-6927e35c3fea.png)
 ![image](https://user-images.githubusercontent.com/37868833/94110821-d4e03380-fe60-11ea-8ef0-a47c5d86aedc.png)
+
+Lab2
+![image](https://user-images.githubusercontent.com/37868833/94794716-e47bf100-03f9-11eb-8229-9999f4151f07.png)
