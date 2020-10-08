@@ -1,0 +1,41 @@
+use lab
+db
+db.createCollection("Student")
+
+db.Student.insert({_id:"1",Name:"Adam",RollNum:"10", Age:"15", ContactNum:"9898986565", EmailId: "Adam@gmail.com"})
+db.Student.insert({_id:"2",Name:"Alice",RollNum:"11", Age:"16", ContactNum:"9798966565", EmailId: "Alice@gmail.com"})
+db.Student.insert({_id:"3",Name:"Bob",RollNum:"12", Age:"16", ContactNum:"9998986565", EmailId: "Bob@gmail.com"})
+db.Student.insert({_id:"4",Name:"Dave",RollNum:"13", Age:"15", ContactNum:"9098556565", EmailId: "Dave@gmail.com"})
+db.Student.insert({_id:"5",Name:"Eve",RollNum:"14", Age:"16", ContactNum:"9338986565", EmailId: "Eve@gmail.com"})
+
+db.Student.update({RollNum:"10"},{$set:{EmailId: "Adam2005@gmail.com"}})
+
+db.Student.update({_id:"2"},{$set:{Name:"ABC"}},{upsert:true})
+db.Student.update({RollNum:"11"},{$set:{Name:"FEM"}},{upsert:true})
+
+mongoexport -d lab -c Student -f _id,Name,RollNum,Age,ContactNum,EmailId --csv -o c:\Users\andy\student.csv
+db.Student.drop()
+mongoimport -d lab -c Student --type csv --headerline --file c:\Users\andy\student.csv
+
+db.createCollection("Customers")
+
+db.Customers.insert({Cust_id:"1",Name:"Adam",Acc_Bal:1000, Acc_Type:"S"})
+db.Customers.insert({Cust_id:"2",Name:"Alice",Acc_Bal:1100, Acc_Type:"Z"})
+db.Customers.insert({Cust_id:"3",Name:"Bob",Acc_Bal:1200, Acc_Type:"S"})
+db.Customers.insert({Cust_id:"4",Name:"Dave",Acc_Bal:1300, Acc_Type:"Z"})
+db.Customers.insert({Cust_id:"5",Name:"Eve",Acc_Bal:1400, Acc_Type:"S"})
+
+db.Customers.find({Acc_Bal:{$gt:1200},Acc_Type:{$eq:"Z"}})
+
+db.Customers.insert({Cust_id:"110",Name:"Adam",Acc_Bal:1000, Acc_Type:"S"})
+db.Customers.insert({Cust_id:"110",Name:"Adam",Acc_Bal:1100, Acc_Type:"Z"})
+db.Customers.insert({Cust_id:"330",Name:"Bob",Acc_Bal:1200, Acc_Type:"S"})
+db.Customers.insert({Cust_id:"330",Name:"Bob",Acc_Bal:1300, Acc_Type:"Z"})
+db.Customers.insert({Cust_id:"110",Name:"Adam",Acc_Bal:1400, Acc_Type:"A"})
+
+db.Customers.aggregate({$group:{_id:"$Cust_id",MaxAccBal:{$max:"$Acc_Bal"}}})
+db.Customers.aggregate({$group:{_id:"$Cust_id",MinAccBal:{$min:"$Acc_Bal"}}})
+
+mongoexport -d lab -c Customers -f Cust_id,Name,Acc_Bal,Acc_Type --csv -o c:\Users\andy\customers.csv
+db.Customers.drop()
+mongoimport -d lab -c Customers --type csv --headerline --file c:\Users\andy\customers.csv
