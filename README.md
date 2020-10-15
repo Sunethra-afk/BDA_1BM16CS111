@@ -34,3 +34,5 @@ Lab4
 ![image](https://user-images.githubusercontent.com/37868833/96108990-d3ec7000-0efb-11eb-9b61-e90bb65277d6.png)
 ![image](https://user-images.githubusercontent.com/37868833/96109034-e1a1f580-0efb-11eb-978b-d4fdd8bba513.png)
 ![image](https://user-images.githubusercontent.com/37868833/96109078-ed8db780-0efb-11eb-84e1-dba87cb32356.png)
+![image](https://user-images.githubusercontent.com/37868833/96111546-f469f980-0efe-11eb-884f-bcbbb67f7afd.png)
+![image](https://user-images.githubusercontent.com/37868833/96111508-e61bdd80-0efe-11eb-8055-a7a2f11a9425.png)
