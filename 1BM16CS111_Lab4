@@ -1,0 +1,34 @@
+use lab_assignment1
+db
+db.createCollection("books")
+db.books.save({_id:1, Category:"Machine Learning", Bookname:"Machine Learning for Hackers",Author:"Drew Conway", qty:25,price:400,rol:30,pages:350})
+db.books.save({_id:2, Category:"Business Intelligence", Bookname:"Fundamentals of Business Analytics",Author:"Seema Acharya", qty:55,price:500,rol:30,pages:250})
+db.books.save({_id:3, Category:"Analytics", Bookname:"Competing on Analytics",Author:"Thomas Davenport", qty:8,price:150,rol:20,pages:150})
+db.books.save({_id:4, Category:"Visualization", Bookname:"Visualizing Data",Author:"Ben Fry", qty:12,price:325,rol:6,pages:450})
+db.books.save({_id:5, Category:"Web Mining", Bookname:"Learning R",Author:"Richard", qty:10,price:850,rol:10,pages:120})
+db.books.find().pretty()
+
+var map = function(){
+    var category;
+    if(this.pages>=300)
+        category = "Big books"
+    else
+        category = "Small Books"
+    emit(category, {
+        Bookname : this.Bookname});
+}
+var reduce = function(key, values){
+   return values.length    
+}
+
+db.books.mapReduce(map, reduce, {out: "Bookcategory"})
+db.Bookcategory.find()
+
+
+
+show dbs
+use test
+mongoimport -d test -c MongoDBHandsOn --type csv --headerline --file c:\Users\andy\titanic.csv
+db.MongoDBHandsOn.find()
+db.MongoDBHandsOn.aggregate({$group:{_id:"$Sex", SumOfFares:{$sum:"$Fare"}}})
+db.MongoDBHandsOn.aggregate({$group:{_id:"$Sex", AvgOfAge:{$avg:"$Age"}}})
