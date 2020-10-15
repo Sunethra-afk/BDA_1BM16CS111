@@ -1,12 +1,12 @@
 # BDA_1BM16CS111
-
+---
 Lab1
 ![image](https://user-images.githubusercontent.com/37868833/94106250-a9594b00-fe58-11ea-9098-58ae2d627168.png)
 ![image](https://user-images.githubusercontent.com/37868833/94106254-ad856880-fe58-11ea-91f2-11bf9e2238fe.png)
 ![image](https://user-images.githubusercontent.com/37868833/94106257-b0805900-fe58-11ea-8cb9-75fa5f609006.png)
 ![image](https://user-images.githubusercontent.com/37868833/94106532-36040900-fe59-11ea-8fe7-6927e35c3fea.png)
 ![image](https://user-images.githubusercontent.com/37868833/94110821-d4e03380-fe60-11ea-8ef0-a47c5d86aedc.png)
-
+---
 Lab2
 ![image](https://user-images.githubusercontent.com/37868833/94795260-bba82b80-03fa-11eb-8a0b-2450b9147260.png)
 ![image](https://user-images.githubusercontent.com/37868833/94795269-be0a8580-03fa-11eb-84f6-3c5902ab9dfc.png)
@@ -14,7 +14,7 @@ Lab2
 ![image](https://user-images.githubusercontent.com/37868833/94794716-e47bf100-03f9-11eb-8229-9999f4151f07.png)
 ![image](https://user-images.githubusercontent.com/37868833/94807284-1054a200-040d-11eb-9363-79e71d5976ad.png)
 ![image](https://user-images.githubusercontent.com/37868833/94807307-18acdd00-040d-11eb-97f7-2553ae2a9c32.png)
-
+---
 Lab3
 ![image](https://user-images.githubusercontent.com/37868833/95450446-edce0600-0983-11eb-9ad2-95290d94b0aa.png)
 ![image](https://user-images.githubusercontent.com/37868833/95450483-fb838b80-0983-11eb-883e-9a0966d72dd2.png)
@@ -26,3 +26,11 @@ Lab3
 ![image](https://user-images.githubusercontent.com/37868833/95450838-8795b300-0984-11eb-9f5d-228cf12bf4c2.png)
 ![image](https://user-images.githubusercontent.com/37868833/95450895-9d0add00-0984-11eb-9240-67653fe28960.png)
 ![image](https://user-images.githubusercontent.com/37868833/95450977-c1ff5000-0984-11eb-91b0-45924b0f1e30.png)
+---
+Lab4
+![image](https://user-images.githubusercontent.com/37868833/96108807-a1db0e00-0efb-11eb-8599-6dd05da3f08f.png)
+![image](https://user-images.githubusercontent.com/37868833/96108842-aef7fd00-0efb-11eb-8008-8b4a8b3b9627.png)
+![image](https://user-images.githubusercontent.com/37868833/96108914-c33bfa00-0efb-11eb-8c36-7a135e901771.png)
+![image](https://user-images.githubusercontent.com/37868833/96108990-d3ec7000-0efb-11eb-9b61-e90bb65277d6.png)
+![image](https://user-images.githubusercontent.com/37868833/96109034-e1a1f580-0efb-11eb-978b-d4fdd8bba513.png)
+![image](https://user-images.githubusercontent.com/37868833/96109078-ed8db780-0efb-11eb-84e1-dba87cb32356.png)
