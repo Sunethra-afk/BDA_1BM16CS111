@@ -62,6 +62,7 @@ I. Perform the following  DB operations using Cassandra.
 
 ---
 ![image](https://user-images.githubusercontent.com/37868833/98233668-645f2300-1f85-11eb-8c0b-9348edce7cb9.png)
+![image](https://user-images.githubusercontent.com/37868833/98239966-c53f2900-1f8e-11eb-97ac-2319b77b96ac.png)
 ![image](https://user-images.githubusercontent.com/37868833/98233742-79d44d00-1f85-11eb-93d0-a0a10f636b2f.png)
 ![image](https://user-images.githubusercontent.com/37868833/98233879-9ec8c000-1f85-11eb-8573-97a10c85d587.png)
 ![image](https://user-images.githubusercontent.com/37868833/98233938-b43dea00-1f85-11eb-9f17-7528ac520162.png)
