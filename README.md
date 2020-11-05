@@ -45,9 +45,10 @@ Lab5
 ![image](https://user-images.githubusercontent.com/37868833/97568858-1c804f00-1a0d-11eb-8662-c4746eb05e9c.png)
 ![image](https://user-images.githubusercontent.com/37868833/98209604-3964d700-1f65-11eb-8d5c-da40227ddc87.png)
 ---
-Lab6
+Lab6.1
 ---
-I.Perform the following  DB operations using Cassandra. 
+
+I. Perform the following  DB operations using Cassandra. 
 1. Create  a keyspace by name Employee
 2. Create a column family by name Employee-Info with attributes 
     Emp_Id Primary Key, Emp_Name, Designation, Date_of_Joining, Salary,   
@@ -58,13 +59,17 @@ I.Perform the following  DB operations using Cassandra.
 5. Alter the schema of the table Employee_Info to add a column Projects which stores a set of Projects done by the corresponding Employee.
 6. Update the altered table to add project names.
 7.Create a TTL of 15 seconds to display the values of Employees.
+
 ---
 ![image](https://user-images.githubusercontent.com/37868833/98233668-645f2300-1f85-11eb-8c0b-9348edce7cb9.png)
 ![image](https://user-images.githubusercontent.com/37868833/98233742-79d44d00-1f85-11eb-93d0-a0a10f636b2f.png)
 ![image](https://user-images.githubusercontent.com/37868833/98233879-9ec8c000-1f85-11eb-8573-97a10c85d587.png)
 ![image](https://user-images.githubusercontent.com/37868833/98233938-b43dea00-1f85-11eb-9f17-7528ac520162.png)
 ---
-II.Perform the following  DB operations using Cassandra.
+Lab6.2
+---
+
+II. Perform the following  DB operations using Cassandra.
 1.Create  a keyspace by name Library
 2. Create a column family by name Library-Info with attributes 
      Stud_Id Primary Key,
@@ -75,6 +80,7 @@ II.Perform the following  DB operations using Cassandra.
 4. Write a query to show that a student with id 112 has taken a book “BDA” 2 times.
 5. Export the created column to a csv file
 6. Import a given csv dataset from local file system into Cassandra column family
+
 ---
 ![image](https://user-images.githubusercontent.com/37868833/98232071-3547b200-1f83-11eb-91d4-254e21237959.png)
 ![image](https://user-images.githubusercontent.com/37868833/98232154-51e3ea00-1f83-11eb-9712-92f9b69b5606.png)
