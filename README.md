@@ -70,7 +70,7 @@ Lab6.2
 ---
 
 II. Perform the following  DB operations using Cassandra.
-1.Create  a keyspace by name Library
+1. Create  a keyspace by name Library
 2. Create a column family by name Library-Info with attributes 
      Stud_Id Primary Key,
      Counter_value of type Counter,
