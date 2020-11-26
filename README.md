@@ -92,5 +92,13 @@ II. Perform the following  DB operations using Cassandra.
 ---
 Lab7 (Hadoop)
 ---
-![image](https://user-images.githubusercontent.com/37868833/100344635-22b31c80-3007-11eb-90eb-c7036b6f9f9d.png)
+![image](https://user-images.githubusercontent.com/37868833/100344844-74f43d80-3007-11eb-81ac-ada08ec91743.png)
+![image](https://user-images.githubusercontent.com/37868833/100344862-7cb3e200-3007-11eb-978a-d626d6dd243d.png)
+![image](https://user-images.githubusercontent.com/37868833/100344875-81789600-3007-11eb-9489-5b4a09405491.png)
+![image](https://user-images.githubusercontent.com/37868833/100344887-85a4b380-3007-11eb-8f15-a8b71598856d.png)
+![image](https://user-images.githubusercontent.com/37868833/100344903-8b01fe00-3007-11eb-9bf4-28495dacd85e.png)
+![image](https://user-images.githubusercontent.com/37868833/100344926-92290c00-3007-11eb-91ca-f36e0f482fee.png)
+![image](https://user-images.githubusercontent.com/37868833/100344941-99501a00-3007-11eb-8a8c-1d4a675953ca.png)
+![image](https://user-images.githubusercontent.com/37868833/100344951-9bb27400-3007-11eb-93d7-ae9d1a073b2b.png)
+![image](https://user-images.githubusercontent.com/37868833/100344960-9f45fb00-3007-11eb-8f21-1a7ff20cd170.png)
 ---
