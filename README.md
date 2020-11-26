@@ -90,3 +90,7 @@ II. Perform the following  DB operations using Cassandra.
 ![image](https://user-images.githubusercontent.com/37868833/98232693-f9f9b300-1f83-11eb-80d8-6d17b84df825.png)
 ![image](https://user-images.githubusercontent.com/37868833/98232552-cae34180-1f83-11eb-89cc-567fb3c119ab.png)
 ---
+Lab7 (Hadoop)
+---
+![image](https://user-images.githubusercontent.com/37868833/100344635-22b31c80-3007-11eb-90eb-c7036b6f9f9d.png)
+---
