@@ -102,3 +102,10 @@ Lab7 (Hadoop)
 ![image](https://user-images.githubusercontent.com/37868833/100344951-9bb27400-3007-11eb-93d7-ae9d1a073b2b.png)
 ![image](https://user-images.githubusercontent.com/37868833/100344960-9f45fb00-3007-11eb-8f21-1a7ff20cd170.png)
 ---
+Lab8
+---
+![image](https://user-images.githubusercontent.com/37868833/101789643-908f3600-3b27-11eb-8bf0-b00ec0ed86c1.png)
+![image](https://user-images.githubusercontent.com/37868833/101789657-94bb5380-3b27-11eb-9000-38b5ae880dba.png)
+![image](https://user-images.githubusercontent.com/37868833/101789681-99800780-3b27-11eb-918d-3e332c41a414.png)
+![image](https://user-images.githubusercontent.com/37868833/101789716-a13fac00-3b27-11eb-92d7-af4128ffc079.png)
+---
